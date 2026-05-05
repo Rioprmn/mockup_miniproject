@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISARPUS - Dinas Arsip dan Perpustakaan Kota Bandung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="top">
+        <div class="navbar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <!-- Stylized book/archive icon matching mockup -->
+                     <img src="logo.png" width="66" height="66" alt="DISARPUS Logo" />
+                    
+                </div>
+                <div class="logo-text-wrap">
+                    <span class="logo-name">DISARPUS</span>
+                    <span class="logo-tagline">Dinas Arsip dan Perpustakaan Kota Bandung</span>
+                </div>
+            </div>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home"    class="nav-link active">BERANDA</a>
+                <a href="#profil"  class="nav-link">PROFIL</a>
+                <a href="#layanan" class="nav-link">LAYANAN</a>
+                <a href="#buku"    class="nav-link">PENGADUAN BUKU</a>
+                <a href="#galeri"  class="nav-link">GALERI</a>
+                <a href="#berita"  class="nav-link">BERITA</a>
+                <a href="#unduhan" class="nav-link">UNDUHAN</a>
+                <a href="#kontak"  class="nav-link">KONTAK</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Selamat Datang di Website Dinas Arsip dan Perpustakaan Kota Bandung</p>
+            <h1 class="hero-title">Akses Pengetahuan &amp;<br>Arsip Digital</h1>
+            <p class="hero-sub">Jelajahi ribuan koleksi buku dan arsip dalam satu platform modern.</p>
+            <a href="#layanan" class="btn-search-bar">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-right:8px;opacity:.7"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                Cari Buku Disini...
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== JADWAL LAYANAN ===== -->
+    <section class="schedule" id="layanan">
+    <div class="sched-container">
+
+        <div class="sched-label">
+            <h3>JADWAL LAYANAN<br>PERPUSTAKAAN</h3>
+        </div>
+
+        <div class="sched-cards">
+            <div class="sched-card">
+                <span class="sc-day">Senin - Kamis</span>
+                <span class="sc-time">08.00 - 16.00</span>
+            </div>
+
+            <div class="sched-card">
+                <span class="sc-day">Jumat</span>
+                <span class="sc-time">08.00 - 16.00</span>
+            </div>
+
+            <div class="sched-card">
+                <span class="sc-day">Sabtu</span>
+                <span class="sc-time">09.00 - 12.00</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- ===== SELAYANG PANDANG ===== -->
+    <section class="overview" id="profil">
+        <div class="ov-wrap">
+            <div class="ov-text">
+                <span class="ov-tag">Selayang Pandang</span>
+                <h2 class="ov-title">SELAYANG PANDANG<br>DISARPUS KOTA BANDUNG</h2>
+                <p class="ov-body">Ingin tahu lebih banyak tentang DISARPUS Kota Bandung? Di sini, Di Disarpus "Selayang Pandang" kami membawa Anda ke dalam cerita lengkap tentang visi dan misi kami. Dari sejarah berdirinya hingga layanan-layanan unggulan yang kami tawarkan, semuanya ada di sini, menampilkan setiap aspek dari misi kami untuk melayani masyarakat Kota Bandung dengan dedikasi penuh.</p>
+                <a href="#" class="btn-ov">Lihat Selengkapnya</a>
+            </div>
+            <div class="ov-media">
+                <div class="vid-wrap">
+                    <img src="vid.jpg" alt="Kepala Dinas" />
+                    <button class="play-btn" aria-label="Play">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="white"><polygon points="6,3 20,12 6,21"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LAYANAN UNGGULAN ===== -->
+<section class="services">
+    <div class="sv-wrap">
+
+        <div class="sv-header">
+            <span class="sv-tag">Layanan</span>
+            <h2 class="sv-title">Layanan Unggulan Kami</h2>
+        </div>
+
+        <div class="sv-grid">
+
+            <div class="sv-card">
+                <div class="sv-icon">📚</div>
+                <h3>Perpustakaan Digital</h3>
+                <p>Akses e-book, jurnal, dan multimedia secara online kapan saja.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">📖</div>
+                <h3>Koleksi Lengkap</h3>
+                <p>Ribuan koleksi buku fisik dan digital dari berbagai bidang.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">👥</div>
+                <h3>Ruang Komunitas</h3>
+                <p>Fasilitas diskusi, workshop, dan kolaborasi.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">🖥️</div>
+                <h3>Layanan Referensi</h3>
+                <p>Bantuan riset dari pustakawan profesional.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">🎓</div>
+                <h3>Program Pelatihan</h3>
+                <p>Workshop literasi digital dan pelatihan keterampilan.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">📱</div>
+                <h3>Aplikasi Mobile</h3>
+                <p>Akses katalog dan peminjaman lewat smartphone.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">📰</div>
+                <h3>Informasi Publik</h3>
+                <p>Akses informasi layanan dan kebijakan terbaru.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">📂</div>
+                <h3>Arsip Digital</h3>
+                <p>Penyimpanan arsip modern dan terstruktur.</p>
+            </div>
+
+            <div class="sv-card">
+                <div class="sv-icon">🌐</div>
+                <h3>Layanan Online</h3>
+                <p>Akses layanan tanpa datang langsung.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- ===== EVENT + BERITA ===== -->
+    <section class="events-news" id="galeri">
+        <div class="en-wrap">
+
+            <!-- LEFT: Event -->
+            <div class="ev-col">
+                <div class="col-hd">
+                    <h2 class="col-title">Event DISARPUS</h2>
+                </div>
+                <!-- Large featured card -->
+                <div class="ev-big">
+                    <img src="g1.png" alt="Pangaluhunan Galura" />
+                    <div class="ev-caption">
+                        <p class="ev-cap-title">Pangaluhunan Galura</p>
+                        <p class="ev-cap-meta">Keterangan acara</p>
+                    </div>
+                </div>
+                <!-- Two small cards -->
+                <div class="ev-row">
+                    <div class="ev-sm">
+                        <img src="g2.png" alt="Event 2" />
+                        <div class="ev-caption">
+                            <p class="ev-cap-title">Pangaluhunan Galura</p>
+                            <p class="ev-cap-meta">Keterangan acara</p>
+                        </div>
+                    </div>
+                    <div class="ev-sm">
+                        <img src="g3.png" alt="Event 3" />
+                        <div class="ev-caption">
+                            <p class="ev-cap-title">Festival Literasi</p>
+                            <p class="ev-cap-meta">Keterangan acara</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT: Berita -->
+            <div class="nw-col" id="berita">
+                <div class="col-hd nw-hd">
+                    <h2 class="col-title">Gardan Berita</h2>
+                    <a href="#" class="all-link">Lihat Semua Berita &rsaquo;</a>
+                </div>
+                <div class="nw-list">
+                    <div class="nw-item">
+                        <div class="nw-thumb"><img src="b1.jpg" alt="Berita 1"/></div>
+                        <div class="nw-info">
+                            <span class="nw-date">22 April 2025</span>
+                            <h4>Bandung Kota Cerita Jilid 3: Literasi Angklung Kota Bandung</h4>
+                            <a href="#" class="nw-more">Selengkapnya &rsaquo;</a>
+                        </div>
+                    </div>
+                    <div class="nw-item">
+                        <div class="nw-thumb"><img src="b2.jpg" alt="Berita 2"/></div>
+                        <div class="nw-info">
+                            <span class="nw-date">10 April 2025</span>
+                            <h4>FESTIVAL LITERASI Tahun 2025</h4>
+                            <a href="#" class="nw-more">Selengkapnya &rsaquo;</a>
+                        </div>
+                    </div>
+                    <div class="nw-item">
+                        <div class="nw-thumb"><img src="b3.jpg" alt="Berita 3"/></div>
+                        <div class="nw-info">
+                            <span class="nw-date">5 September 2025</span>
+                            <h4>Cerpen Fest 2025: Bandung Kota Cerita, Gerakan Literasi dan Arsip sebagai Identitas Kolektif</h4>
+                            <a href="#" class="nw-more">Selengkapnya &rsaquo;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="kontak">
+        <div class="ft-wrap">
+
+            <div class="ft-col">
+                <h4 class="ft-h">Hubungi Kami</h4>
+                <p>Dinas Arsip dan Perpustakaan Kota Bandung<br>
+                   Jl. Wastukancana No.2, Babakan Ciamis,<br>
+                   Kota Bandung – 40115</p>
+                <p class="ft-ct">+62 22 423 6921</p>
+                <p class="ft-ct"><a href="mailto:disarpus@bandung.go.id">disarpus@bandung.go.id</a></p>
+            </div>
+
+            <div class="ft-col">
+                <h4 class="ft-h">Media Sosial</h4>
+                <div class="soc-row">
+                    <a href="#" class="soc ig" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                    </a>
+                    <a href="#" class="soc yt" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
+                    </a>
+                </div>
+                <h4 class="ft-h" style="margin-top:20px;">Pengunjung</h4>
+                <div class="vis-box">
+                    <span class="vis-num" id="visitorCount">124.892</span>
+                    <span class="vis-lbl">Total Pengunjung</span>
+                </div>
+            </div>
+
+            <div class="ft-col ft-map">
+                <h4 class="ft-h">Lokasi Kami</h4>
+                <div class="map-frame">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7988193788046!2d107.60571431477325!3d-6.91574699305476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e62de2d8d7ef%3A0x4c3a0c285f4f64b8!2sDinas%20Arsip%20dan%20Perpustakaan%20Kota%20Bandung!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid"
+                        width="100%" height="150" style="border:0;border-radius:6px;"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ft-bar">
+            <div class="ft-bar-in">
+                <div class="idflag"><span class="f-red"></span><span class="f-wht"></span></div>
+                <p>&copy; 2025 Dinas Arsip dan Perpustakaan | Kota Bandung – All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="totop" id="scrollTop" aria-label="Ke atas">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
